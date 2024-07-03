@@ -69,7 +69,6 @@ function handleChoice(choiceIndex) {
     scriptEl.innerHTML = script.choices[choiceIndex].value;
     choice1El.style.display = 'none';
     choice2El.style.display = 'none';
-    setTimeout(nextQuestion, 1000);
   } else {
     nextQuestion();
   }
